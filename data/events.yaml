@@ -1,0 +1,11 @@
+events:
+  -
+    name: "The Parade"
+    date: "11/24/13"
+    desc: "First day of my life"
+    img: "coldDay.jpg"
+  -
+    name: "Weekly Struggles"
+    date: "11/28/13"
+    desc: "First week of my life"
+    img: "weeklyStruggles.jpg"

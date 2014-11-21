@@ -14,11 +14,12 @@ html
     meta(property='og:type', content='website')  
 
     title=title
-    link(rel='stylesheet', href='/css/master.css')
+    link(rel='stylesheet', href='#{absPath}/css/master.css')
     
   body
     header
     main
-
-  script(src="/js/templates.js")
-  script(src="/js/build.js")
+  
+  != "<script> var data = " + JSON.stringify(data.events) + ";</script>"
+  script(src="#{absPath}/js/templates.js")
+  script(src="#{absPath}/js/build.js")

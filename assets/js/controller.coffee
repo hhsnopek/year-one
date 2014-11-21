@@ -17,7 +17,9 @@ class Controller extends Marionette.Controller
 
   events: ->
     App.header.show(new EventsHeaderView)
-    App.main.show(new EventsView)
+    App.main.show(new EventsView(
+      collection: new Backbone.Collection(data.events)
+    ))
 
   event: (id) ->
     App.header.show(new EventsHeaderView)

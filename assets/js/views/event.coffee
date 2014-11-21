@@ -4,11 +4,11 @@ App = require '../application'
 
 # todo pass data ie photo href & description/title
 class EventView extends Marionette.ItemView
-  className: 'eventPopup'
-  template: => templates.eventPopup(data: @data)
+  tagName: 'li'
+  className: 'event'
+  template: templates.event
 
-  # verify roots-yaml completion
   initialize: ->
-    @data = data[@options.id]
+    @data = data.events[@options.id]
 
 module.exports = EventView
