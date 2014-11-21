@@ -1,0 +1,22 @@
+{
+  "name": "year-one",
+  "description": "",
+  "dependencies": {
+    "autoprefixer-stylus": "0.3.x",
+    "axis": "0.3.x",
+    "backbone": "1.1.x",
+    "backbone.marionette": "2.2.x",
+    "browserify-data": "^0.2.0",
+    "client-templates": "0.1.x",
+    "coffee-script": "1.8.x",
+    "coffeeify": "^1.0.0",
+    "jade": "1.x",
+    "jquery": "2.1.x",
+    "marked": "0.3.x",
+    "roots-browserify": "0.1.x",
+    "roots-yaml": "0.0.x",
+    "rupture": "0.4.x",
+    "stylus": "0.48.x",
+    "underscore": "1.6.x"
+  }
+}
