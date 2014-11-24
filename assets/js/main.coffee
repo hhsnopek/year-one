@@ -9,6 +9,7 @@ App = require './application'
 
 App.on 'start', ->
   router = new Router(controller: new Controller)
+  App.reqres.setHandler('router', -> router)
   Backbone.history.start(pushState: true)
 
 App.start()

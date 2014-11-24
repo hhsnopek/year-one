@@ -19,6 +19,7 @@ class IntroView extends Marionette.ItemView
 
   AnimationListener = (e) ->
     if e.animationName is "fadeInOutDone" and e.type.toLowerCase().indexOf("animationend") >= 0
-      App.request('router').navigate("/events", { trigger: true })
+      router = App.request('router')
+      router.navigate("/events", { trigger: true })
 
 module.exports = IntroView
