@@ -1,0 +1,64 @@
+.first
+  text-align: center
+  animation: 1s 12s Hidden ease-out forwards
+
+  h1
+    position: absolute
+    left: 50%
+    transform: translate(-50%, -50%)
+
+  h1:nth-of-type(1)
+    top: 45%
+    animation: 14s fadeInOut ease-in-out forwards
+
+  .slide
+    h1
+      top: 50%
+      opacity: 0
+
+    h1:nth-of-type(1)
+      animation: 2s 2s fadeInOut ease-in-out forwards
+
+    h1:nth-of-type(2)
+      animation: 2s 4s fadeInOut ease-in-out forwards
+
+    h1:nth-of-type(3)
+      animation: 2s 6s fadeInOut ease-in-out forwards
+
+    h1:nth-of-type(4)
+      animation: 2s 8s fadeInOut ease-in-out forwards
+
+    h1:nth-of-type(5)
+      animation: 2s 10s fadeInOut ease-in-out forwards
+
+    h1:nth-of-type(6)
+      animation: 2s 12s fadeInOut ease-in-out forwards
+
+.second
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  width: 90%
+  text-align: center
+  opacity: 0
+  animation: 8s 14s fadeInOutDone ease-out forwards
+
+  h1:nth-of-type(2)
+    color: peach
+
+@keyframes fadeInOut
+  20%, 80%
+    display: block
+    opacity: 1
+  0%, 100%
+    display: none
+    opacity: 0
+
+@keyframes fadeInOutDone
+  20%, 80%
+    display: block
+    opacity: 1
+  0%, 100%
+    display: none
+    opacity: 0
