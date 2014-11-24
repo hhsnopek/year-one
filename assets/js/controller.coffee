@@ -7,6 +7,7 @@ IntroView = require './views/intro'
 EventsHeaderView = require './views/eventsHeader'
 EventsView = require './views/events'
 EventView = require './views/event'
+EventPopupView = require './views/eventPopup'
 NotFoundView = require './views/notFound'
 
 class Controller extends Marionette.Controller
@@ -23,7 +24,7 @@ class Controller extends Marionette.Controller
 
   event: (id) ->
     App.header.show(new EventsHeaderView)
-    App.main.show(new EventView(id: id))
+    App.main.show(new EventPopupView(id: id))
 
   notFound: ->
     App.header.reset()
