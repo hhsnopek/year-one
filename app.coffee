@@ -10,7 +10,7 @@ yaml = require 'roots-yaml'
 module.exports =
   locals:
     title: 'Year One'
-    description: 'First of many years in my relationship with Shayla'
+    description: 'My first of many years with Shayla'
     absPath: ''
 
   ignores: ['README.md', '**/layout.*', '**/_*', 'ship.conf', '.DS_Store', '.gitignore', 'npm-debug.log']
