@@ -1,11 +1,96 @@
 events:
   -
-    name: "The Parade"
+    title: "The Parade"
     date: "11/24/13"
-    desc: "First day of my life"
-    img: "coldDay.jpg"
+    desc: "Day 0 of our relationship"
+    img: "paradeDay.jpg"
   -
-    name: "Weekly Struggles"
-    date: "11/28/13"
-    desc: "First week of my life"
-    img: "weeklyStruggles.jpg"
+    title: "Someone doesn't like the camera..."
+    date: "12/15/2013"
+    desc: ""
+    img: "hidingShayla.jpg"
+  -
+    title: "Movie Night!"
+    date: "12/24/2013"
+    desc: "Movie night at Shayla's!"
+    img: "movieNight.jpg"
+  -
+    title: "First day of the new year!"
+    date: "01/01/2014"
+    desc: "Tubing with the family!"
+    img: "familyTubing.gif"
+  -
+    title: "Cookies!!!"
+    date: "01/11/2014"
+    desc: "In the attempt to make cookies, we made a little mess with the flour."
+    img: "cookieDate.jpg"
+  -
+    title: "Fire in the Snow fort"
+    date: "01/11/2014"
+    desc: "Within the family snow fort at Henry's house, we burn our legs just to stay warm."
+    img: "burningLegs.jpg"
+  -
+    title: "Valentines Weekend Date!"
+    date: "02/16/2014"
+    desc: "Heading out to the Melting Pot"
+    img: "valentinesWeekend.jpg"
+  -
+    title: "Walking around the Fox River"
+    date: "03/30/2014"
+    desc: "Went walking with Alex & Alex to see Waukesha on a beautiful day."
+    img: "riverWalk.jpg"
+  -
+    title: "Decorating Easter Eggs"
+    date: "04/19/2014"
+    desc: "Colored eggs with Shaylas Family over Easter."
+    img: "easterEggs.jpg"
+  -
+    title: "Mini Golfing w/Shayla & the family!"
+    date: "05/17/2014"
+    desc: ""
+    img: "miniGolfing.jpg"
+  -
+    title: "6th Month celebration at the beach"
+    date: "05/24/2014"
+    desc: "\"Surprised\" Shayla for our 6th month with a picnic at the beach!"
+    img: "6thMonth.jpg"
+  -
+    title: "Time couldn't pass any faster as I waited for her"
+    date: "06/25/2014"
+    desc: ""
+    img: "newYorkBound.jpg"
+  -
+    title: "Live from New York City"
+    date: "07/20/2014"
+    desc: "Waiting on to be seated for Pizza"
+    img: "liveNewYork.jpeg"
+  -
+    title: "The Park in the Sky"
+    date: "07/20/2014"
+    desc: ""
+    img: "highline.jpg"
+  -
+    title: "Empire State Building"
+    date: "07/20/2014"
+    desc: "Won't ever forget this view with Shayla."
+    img: "empireState.jpg"
+  -
+    title: "No smiling for the camera!"
+    date: "09/25/2014"
+    desc: "Lunch time with Shayla can't always be fun! ;)"
+    img: "frowningShayla.jpg"
+  -
+    title: "Canoeing on Mauthe Lake"
+    date: "10/14/2014"
+    desc: ""
+    img: "canoeing.jpeg"
+  -
+    title: "Halloween Weekend"
+    date: "11/05/2014"
+    desc: "Captian America with a soccer player"
+    img: "halloween.jpeg"
+  -
+    title: "Captian America lifts him, wait..."
+    date: "11/05/2014"
+    desc: ""
+    img: "strongPlayer.jpg"
