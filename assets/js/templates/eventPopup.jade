@@ -1,6 +1,11 @@
-.close
-h2= title
-h3= date
-p= desc
-img(src="https://s3.amazonaws.com/year-one/#{img}")
-.share-button
+a.back(href="/events")
+  include ../../img/arrow-head.svg
+
+.col
+  h1.title= title
+  h2.date= date
+  p.desc= desc
+  .share-button
+
+.col
+  img(src="https://s3.amazonaws.com/year-one/#{img}")
