@@ -11,7 +11,7 @@ module.exports =
   locals:
     title: 'Year One'
     description: 'My first of many years with Shayla'
-    absPath: ''
+    absPath: 'http://hhsnopek.com/year-one/'
 
   ignores: ['README.md', '**/layout.*', '**/_*', 'ship.conf', '.DS_Store', '.gitignore', 'npm-debug.log']
 
