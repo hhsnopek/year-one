@@ -14,7 +14,7 @@
     "jquery": "2.1.x",
     "marked": "0.3.x",
     "roots-browserify": "0.1.x",
-    "roots-netlify": "git+https://github.com/carrot/roots-netlify.git#package-json",
+    "roots-netlify": "0.0.3",
     "roots-yaml": "0.0.x",
     "rupture": "0.4.x",
     "stylus": "0.48.x",
