@@ -3,6 +3,10 @@ Backbone = require 'backbone'
 Backbone.$ = $
 Marionette = require 'backbone.marionette'
 Marionette.$ = $
+
+# marionette inspector
+window.__agent &&  window.__agent.start(Backbone, Marionette)
+
 Router = require './router'
 Controller = require './controller'
 App = require './application'
